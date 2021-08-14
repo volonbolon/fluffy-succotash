@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7968B6C926C88E6E0038CA49 /* CLLocationManager+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7968B6C826C88E6E0038CA49 /* CLLocationManager+Combine.swift */; };
+		7968B6CB26C88E850038CA49 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7968B6CA26C88E850038CA49 /* LocationManager.swift */; };
+		7968B6CD26C88E990038CA49 /* ReactiveLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7968B6CC26C88E990038CA49 /* ReactiveLocationManager.swift */; };
+		7968B6CF26C88EAC0038CA49 /* MockLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7968B6CE26C88EAC0038CA49 /* MockLocationManager.swift */; };
 		79C055C626C884540047ABB5 /* FluffySuccotashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C055C526C884540047ABB5 /* FluffySuccotashApp.swift */; };
 		79C055C826C884540047ABB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C055C726C884540047ABB5 /* ContentView.swift */; };
 		79C055CA26C884570047ABB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C055C926C884570047ABB5 /* Assets.xcassets */; };
@@ -41,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7968B6C826C88E6E0038CA49 /* CLLocationManager+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Combine.swift"; sourceTree = "<group>"; };
+		7968B6CA26C88E850038CA49 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		7968B6CC26C88E990038CA49 /* ReactiveLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveLocationManager.swift; sourceTree = "<group>"; };
+		7968B6CE26C88EAC0038CA49 /* MockLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLocationManager.swift; sourceTree = "<group>"; };
 		79C055C226C884540047ABB5 /* FluffySuccotash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluffySuccotash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C055C526C884540047ABB5 /* FluffySuccotashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluffySuccotashApp.swift; sourceTree = "<group>"; };
 		79C055C726C884540047ABB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +119,7 @@
 		79C055C426C884540047ABB5 /* FluffySuccotash */ = {
 			isa = PBXGroup;
 			children = (
+				79C0560326C88E340047ABB5 /* Helpers */,
 				79C055F326C884EB0047ABB5 /* State */,
 				79C055F026C884880047ABB5 /* Model */,
 				79C055C526C884540047ABB5 /* FluffySuccotashApp.swift */,
@@ -176,6 +185,17 @@
 				79C055FD26C885EF0047ABB5 /* Middleware.swift */,
 			);
 			path = Middleware;
+			sourceTree = "<group>";
+		};
+		79C0560326C88E340047ABB5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7968B6C826C88E6E0038CA49 /* CLLocationManager+Combine.swift */,
+				7968B6CA26C88E850038CA49 /* LocationManager.swift */,
+				7968B6CC26C88E990038CA49 /* ReactiveLocationManager.swift */,
+				7968B6CE26C88EAC0038CA49 /* MockLocationManager.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,11 +329,15 @@
 			files = (
 				79C055F226C884C70047ABB5 /* Region.swift in Sources */,
 				79C055FE26C885EF0047ABB5 /* Middleware.swift in Sources */,
+				7968B6CF26C88EAC0038CA49 /* MockLocationManager.swift in Sources */,
+				7968B6CB26C88E850038CA49 /* LocationManager.swift in Sources */,
 				79C055C826C884540047ABB5 /* ContentView.swift in Sources */,
 				79C055C626C884540047ABB5 /* FluffySuccotashApp.swift in Sources */,
 				79C055F926C885740047ABB5 /* Store.swift in Sources */,
+				7968B6CD26C88E990038CA49 /* ReactiveLocationManager.swift in Sources */,
 				79C055FB26C885BC0047ABB5 /* Reducer.swift in Sources */,
 				79C055F726C885570047ABB5 /* Action.swift in Sources */,
+				7968B6C926C88E6E0038CA49 /* CLLocationManager+Combine.swift in Sources */,
 				79C055F526C884FD0047ABB5 /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
