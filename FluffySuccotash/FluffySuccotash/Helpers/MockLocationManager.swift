@@ -23,10 +23,10 @@ class MockLocationManager: AnyLocationManager {
     init() {
         regions = []
         authorizationStatus = .notDetermined
-        Timer.publish(every: 5, on: .main, in: .common)
+        Timer.publish(every: 1, on: .main, in: .common)
             .autoconnect()
             .map { _ -> CLRegion? in
-                if Bool.random() == true { // Inside or Out of a region
+                if Bool.random() { // Inside or Out of a region
                     return self.regions.randomElement()
                 }
                 return nil
@@ -42,7 +42,6 @@ class MockLocationManager: AnyLocationManager {
                 }
             })
             .store(in: &cancellables)
-            
     }
     
     func requestWhenInUseAuthorization() {
