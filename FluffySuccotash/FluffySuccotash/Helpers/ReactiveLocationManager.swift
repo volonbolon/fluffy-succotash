@@ -20,4 +20,3 @@ protocol AnyReactiveLocationManager: CLLocationManagerDelegate {
     func requestAuthorization() -> AnyPublisher<CLAuthorizationStatus, Never>
     func startMonitoringRegions(_ regions: [Region]) -> AnyPublisher<ShiftRegionInfo, Never>
 }
-

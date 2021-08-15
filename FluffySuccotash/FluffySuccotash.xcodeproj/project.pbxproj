@@ -11,6 +11,8 @@
 		7968B6CB26C88E850038CA49 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7968B6CA26C88E850038CA49 /* LocationManager.swift */; };
 		7968B6CD26C88E990038CA49 /* ReactiveLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7968B6CC26C88E990038CA49 /* ReactiveLocationManager.swift */; };
 		7968B6CF26C88EAC0038CA49 /* MockLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7968B6CE26C88EAC0038CA49 /* MockLocationManager.swift */; };
+		7968B6D126C8A81D0038CA49 /* APIMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7968B6D026C8A81D0038CA49 /* APIMiddleware.swift */; };
+		7968B6D326C8A8360038CA49 /* LocationMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7968B6D226C8A8360038CA49 /* LocationMiddleware.swift */; };
 		79C055C626C884540047ABB5 /* FluffySuccotashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C055C526C884540047ABB5 /* FluffySuccotashApp.swift */; };
 		79C055C826C884540047ABB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C055C726C884540047ABB5 /* ContentView.swift */; };
 		79C055CA26C884570047ABB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C055C926C884570047ABB5 /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 		7968B6CA26C88E850038CA49 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		7968B6CC26C88E990038CA49 /* ReactiveLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveLocationManager.swift; sourceTree = "<group>"; };
 		7968B6CE26C88EAC0038CA49 /* MockLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLocationManager.swift; sourceTree = "<group>"; };
+		7968B6D026C8A81D0038CA49 /* APIMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMiddleware.swift; sourceTree = "<group>"; };
+		7968B6D226C8A8360038CA49 /* LocationMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMiddleware.swift; sourceTree = "<group>"; };
 		79C055C226C884540047ABB5 /* FluffySuccotash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluffySuccotash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C055C526C884540047ABB5 /* FluffySuccotashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluffySuccotashApp.swift; sourceTree = "<group>"; };
 		79C055C726C884540047ABB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -183,6 +187,8 @@
 			isa = PBXGroup;
 			children = (
 				79C055FD26C885EF0047ABB5 /* Middleware.swift */,
+				7968B6D026C8A81D0038CA49 /* APIMiddleware.swift */,
+				7968B6D226C8A8360038CA49 /* LocationMiddleware.swift */,
 			);
 			path = Middleware;
 			sourceTree = "<group>";
@@ -327,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7968B6D326C8A8360038CA49 /* LocationMiddleware.swift in Sources */,
 				79C055F226C884C70047ABB5 /* Region.swift in Sources */,
 				79C055FE26C885EF0047ABB5 /* Middleware.swift in Sources */,
 				7968B6CF26C88EAC0038CA49 /* MockLocationManager.swift in Sources */,
@@ -334,6 +341,7 @@
 				79C055C826C884540047ABB5 /* ContentView.swift in Sources */,
 				79C055C626C884540047ABB5 /* FluffySuccotashApp.swift in Sources */,
 				79C055F926C885740047ABB5 /* Store.swift in Sources */,
+				7968B6D126C8A81D0038CA49 /* APIMiddleware.swift in Sources */,
 				7968B6CD26C88E990038CA49 /* ReactiveLocationManager.swift in Sources */,
 				79C055FB26C885BC0047ABB5 /* Reducer.swift in Sources */,
 				79C055F726C885570047ABB5 /* Action.swift in Sources */,
