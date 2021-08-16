@@ -1,5 +1,5 @@
 # fluffy-succotash
-Redux + Combine (and a little bit of Swift)
+Redux + Combine (and a little bit of SwiftUI)
 
 Due to the simple requirement, I decided to use Redux. MVP would be more than enough as well, but I wanted to push the envelope just a little bit. 
 
